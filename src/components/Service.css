@@ -1,0 +1,39 @@
+.service-heading{
+    width: 223px;
+font-size: 17px;
+letter-spacing: 0px;
+line-height: 24px;
+text-transform: uppercase;
+color: #019edb;
+font-weight: 700;
+font-family: "Lato";
+}
+
+.service-desc{
+    width: 223px;
+height: 138px;
+font-size: 17px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #fff;
+font-family: "Lato";
+}
+
+.service{
+    display: flex;
+    gap: 20px;
+}
+
+.service-img{
+    width: 60px;
+    height: 60px;
+    margin-top: 33px;
+
+}
+
+@media (max-width:600px)
+{
+    .service{
+        display: none;
+    }
+}

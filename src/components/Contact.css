@@ -1,0 +1,33 @@
+
+.contact-options {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.type {
+  font-size: 17px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+}
+
+.contact-desc {
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Lato";
+}

@@ -1,0 +1,43 @@
+.component6 {
+    background-color: brown;
+    height: 154px;
+    /* background-image: radial-gradient(circle at center, #d41e5b 0%, #f90b75 100%); */
+    background-color: #019edb;
+}
+
+.links {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 775%;
+    gap: 25px;
+    left: 29%;
+}
+
+.gola>i {
+    width: 52px;
+    height: 52px;
+    border-radius: 41px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.links>a {
+    font-size: 26px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: "Font Awesome";
+    text-align: center;
+    text-decoration: none;
+}
+@media (max-width:600px)
+{
+    .component6{
+        display: none;
+    }
+}

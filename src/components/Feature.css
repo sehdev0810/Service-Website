@@ -1,0 +1,23 @@
+.feature-heading {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Harabara Mais Bold";
+    text-align: left;
+    margin-bottom: 20px;
+    z-index: 4;
+    margin: 15px;
+}
+
+.feature-content {
+    width: 280px;
+    height: 169px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Lato";
+    z-index: 4;
+    margin: 15px;
+}

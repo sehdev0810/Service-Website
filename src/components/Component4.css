@@ -1,0 +1,96 @@
+.component4 {
+    height: 648px;
+    background-image: url('src/assets/Images/How it work.png');
+}
+
+.comp4h2 {
+    font-size: 39px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    position: absolute;
+    top: 587%;
+    left: 35%;
+}
+
+.comp4p {
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    text-align: center;
+    position: absolute;
+    top: 597%;
+    left: 36.5%;
+}
+
+.service1{
+    position: absolute;
+    top: 620%;
+    left: 7.5%;
+}
+
+.service2{
+    position: absolute;
+    top: 620%;
+    left: 38.5%;
+}
+
+.service3{
+    position: absolute;
+    top: 620%;
+    left: 68.5%;
+}
+
+.comp4i1{
+    position: absolute;
+    top: 620%;
+    left: 34.5%;
+}
+
+.comp4i2{
+    position: absolute;
+    top: 620%;
+    left: 64.5%;
+}
+
+@media (max-width:600px)
+{
+    .component4 {
+        height: 648px;
+        width: 1200px;
+        background-image: url('src/assets/Images/How it work.png');
+    }
+    .comp4h2 {
+        font-size: 39px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Lato";
+        text-align: center;
+        position: absolute;
+        top: 551%;
+        left: 66%;
+        width: 420px;
+    }
+    .comp4p {
+        font-size: 24px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Lato";
+        text-align: center;
+        position: absolute;
+        top: 563%;
+        left: 68.5%;
+        width: 392px;
+    }
+    .service1 , .service2 , .service3 , .comp4i1,.comp4i2{
+        display: none;
+    }
+}
